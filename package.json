@@ -1,0 +1,15 @@
+{
+  "name": "bot-neon",
+  "version": "1.0.0",
+  "description": "Bot de gestion de la communauté NEO PRIME",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rik",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.16.4"
+  }
+}

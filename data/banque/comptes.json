@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "avatar": "Nom Prenom",
+        "utilisateur": 33615641467,
+        "grade": "Nukenin",
+        "solde": 1000,
+        "jobs": [
+            "Superviseur Général",
+            "Arbitre-Modo"
+        ],
+        "armes": [
+            "Epée légendaire de Kusanagi"
+        ]
+    },
+    {
+        "id": 2,
+        "avatar": "Nom Prenom",
+        "utilisateur": 33615641467,
+        "grade": "Genin",
+        "solde": 500,
+        "jobs": [
+            "Arbitre-Modo"
+        ],
+        "armes": [
+            "Epée légendaire de Kusanagi"
+        ]
+    }
+]

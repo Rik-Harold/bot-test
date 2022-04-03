@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "pseudo": "Simo Hayha",
+        "fortune": 2000,
+        "occupation": {
+            "libelle": "Army",
+            "exploration": "SF"
+        },
+        "grade": "Chancelier",
+        "void": "",
+        "rang": {
+            "titre": "Rookie",
+            "logo": "🥉",
+            "categorie": "🐰",
+            "niveau": "1️⃣"
+        },
+        "badge": "Mystère",
+        "portee": "20",
+        "competences": {
+            "vitesse": 1,
+            "senso": 1,
+            "reflexe": 1
+        },
+        "xp": 0,
+        "pa": 0,
+        "techniques": 1,
+        "armes": 0,
+        "boost": 0,
+        "trophee": 0
+    }
+]

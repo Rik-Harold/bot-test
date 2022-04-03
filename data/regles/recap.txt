@@ -1,0 +1,58 @@
+*À votre attention*
+
+Seront renseignés ici les différents critères qui régissent précisément les choses qui échappent à la généralité des fiches de règles. Ces nouvelles règles seront groupées par catégorie :
+
+⭕  *CRÉATION DE TECHNIQUES*
+▫️La création de technique est unique au *1er janvier* pour un unique perso principal
+▫️Seuls les membres dont le perso a été *créé avant cette date* et qui passent le nouvel an peuvent bénéficier de la création de technique
+▫️Chaque créateur de technique a *03 chances* de créer une technique, au delà, il perd son avantage et sa création devient caduque
+▫️Le processus de création de technique dure *jusqu'à la fin du mois*, ce qui laisse à chacun a le temps de peaufiner sa création
+▫️Une technique créée a l'obligation d'être *unique*, *originale* et *différente* de façon fondamentale d'une autre technique existante au sein de la communauté SNG et de l'univers Naruto
+▫️Chaque technique créée se doit d'être *suffisamment détaillée* pour faciliter sa validation au risque d'être annulée bien que logique
+▫️Une technique créée, peu importe sa nature, sera *valide uniquement dans le groupe principal* par les superviseurs où le superviseur général approuve en l'ajoutant au fandom SNG
+
+⭕ *ÉVÉNEMENTS COMMUNAUTAIRES*
+▫️Il existe principalement *03* évènements communautaires *collectives* (Anniversaire SNG, Noël et Nouvel-An) et *02* évènements communautaires *individuels* (Anniversaires Perso, Anniversaire Réel)
+▫️L' *anniversaire SNG* offre à chacun le droit à une technique de rang libre, valable uniquement durant le mois d'anniversaire : décembre
+▫️La *fête de Noël* offre un cadeau parmi 03 possibilités dont chacun de façon unique et valide jusqu'à la fin de l'année courante :
+- 01 affinité
+- 01 capacité particulière
+- 01 technique de rang libre
+▫️La *fête du Nouvel-An* offre quant à lui, la seule et l'unique possibilité de création de technique, valide jusqu'à la fin du mois à raison de 3 essais
+▫️L' *anniversaire du perso* se déroule en 4 mois consécutifs suivant la date de création du perso et valide avant l'actualisation d'un anniversaire suivant. 
+▫️L' *anniversaire réel* lui, est valide uniquement le jour de l'anniversaire et offre une affinité au perso choisi par le membre dans le cas où il en aurait plus d'un
+
+⭕ *TOURNOIS ET EXAMENS*
+▫️Un tournoi au moins a lieu *chaque mois* afin de permettre l'évolution des perso et le challenge dans la communauté
+▫️Chaque tournoi porte un *thème unique* qui ne reviendra jamais mais cela ne change aucunement les récompenses
+▫️L' *examen de sélection des chunin* agit comme un tournoi et n'a lieu que chaque 02 mois et offre en plus des récompenses de tournoi, le grade de chunin ou de AMBU à ceux qui en sont dignes
+▫L' *examen de sélection des jonin* se déroule en plein mode aventure suivant certains critères et uniquement dédiés aux chunin
+▫️ *Devenir Kage* se fait à travers un mini tournoi entre jonin du même village laissant le plus puissant des candidats au poste de Kage mais cela n'arrive qu'à la mort de l'actuel Kage du village
+
+⭕ *FORCE BRUTE ET TAIJUTSU*
+▫️La force brute d'un ninja dépend de ses compétences en PCN force brute. Plus le niveau est grand, plus la puissance est grande. Plus les points de l'un sont plus grands que ceux de l'autre, plus celui-là est plus fort. 
+▫️Un niveau *random* permet à l'utilisateur d'avoir une force ninja similaire à celle des humains normaux non athlétiques. Il ne peut donc soulever au plus que son propre poids et au mieux pousser des poids inférieurs au double du sien.
+▫️Un niveau *ninja power* permet d'être un vrai ninja et donc de posséder une force brute légèrement au dessus de la normale. Ils peuvent donc soulever facilement le double de leur poids voire le triple avec un peu d'effort. Au delà, il ne pourront que pousser des poids jusqu'au quintuple de leur propre poids. 
+▫️Un niveau *super force ninja* permet d'égaler le quintuple de la force brute normale et de pouvoir, dans la première dizaine de PCN, détruire du bois non issus du mokuton, fissurer des murs de pierres peu épais (25cm max), etc... Dans la seconde zone des PCN, l'utilisateur peut détruire des murs de pierres jusqu'à 50cm et infliger de puissants coups au delà de la normale sans toutefois être trop extravagants. 
+▫️À partir du niveau *70 en PCN force brute*, tout usage de cette puissance devient une conséquence de la force améliorée au chakra. Cette capacité s'obtient aussitôt qu'un ninja atteint 70 PCN force brute et lui permet de puiser dans son chakra pour infliger de puissants coups. Répertoriée au fandom SNG, les différents critères de puissance y sont notés. Tout utilisateur de la force améliorée en obtient le statut.
+▫️Un perso peut être créé pour évoluer uniquement au niveau *taijutsu (* juken ou goken *)*. Il se prive ainsi du ninjutsu propre à l'usage du chakra à travers les 5 éléments de base et se concentre principalement sur des techniques taijutsu, kenjutsu, shurikenjutsu et au mieux, il ne peut avoir que des techniques ninjutsu de rang E ou une technique d'invocation de créatures. Le genjutsu est une option.
+▫Seuls les perso adeptes du styles taijutsu peuvent espérer ouvrir les *portes célestes* et profiter des avantages en terme de compétences, techniques et puissance de cette capacité qu'ils sont les seuls à éveiller en capacité spéciale une fois le niveau de PCN atteint, une exception pour eux. 
+
+⭕ *COMPÉTENCES, CAPACITÉS ET TECHNIQUES*
+▫️Chaque perso a une limite maximale de compétences dont la valeur est notée sur 100. Ainsi, au delà des compétences propres au perso, ce dernier se limite à *100 PCN par compétence* peu importe le boost dont il peut faire l'objet. 
+▫️Aucun boost de compétences, technique ou capacité ne sera valable s'il dépasse les limites sauf en endurance, des PCN par compétence. Tout dépassement *annule* l'usage de la capacité ! 
+▫️La particularité des clans est d'offrir à leurs membres une chance dépasser les limites de base des compétences tout en restant dans la limite naturelle de vie (100). Un clan influence donc un perso en lui facilitant une *unique compétence* parmi ceux héréditaires au sein du clan afin d'atteindre *70 PCN* au plus sans être compté comme une des 3 compétences de base. 
+▫️Chaque membre a la possibilité d'obtenir une capacité particulière à la condition qu'elle lui soit unique car un perso ne peut avoir qu'une *unique capacité spéciale*. Cela n'empêche pas d'autres perso d'avoir la même capacité sauf si restreint par les règles d'événements d'obtention de capacités. 
+▫️Comme les capacités spéciales, les *statuts* sont des formes de capacités qui sont moins spéciales car plus communes et qu'on les acquiert généralement par une évolution de compétences. Ces statuts peuvent se *cumuler aux capacités spéciales* en raison de leur caractère de statut et non de simple capacité. Toutefois, un ninja ne peut avoir qu'un *unique statut* ! 
+▫️Un clan peut posséder, en plus d'un avantage de compétence, *l'éveil de compétences ou capacités héréditaires* voire des *statuts héréditaires*. Ces derniers s'obtiennent automatiquement aux compétences requises mais leur caractère héréditaire empêche tout autre compétence de prendre leur place tant que celles héréditaires ne sont pas encore éveillées ! 
+▫️Un clan naît avec *une ou deux affinités héréditaires* que ses membres sont obligés de choisir à la naissance (création de perso). Cela représente une phase primordiale à la poursuite de l'évolution pour continuer d'obtenir les avantages du clan. Toutefois, *l'inconvénient* est qu'un membre qui fait naître son perso dans une famille ne pourra plus jamais faire naître un autre perso dans cette même famille ! 
+▫️Suivant les clans ou particularités en terme d'endurance, on a les *limites* en PCN endurance suivantes :
+• *300 PCN* : Otsutsuki
+• *250 PCN* : Uzumaki 
+• *200 PCN* : Senju ou clan des Raikage
+• *150 PCN* : Uchiha ou utilisateur du jiton
+• *125 PCN* : Autres clans
+• *100 PCN* : Sans clan
+
+
+*SNG vous souhaite une belle expérience ! ♨️*

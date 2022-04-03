@@ -1,0 +1,21 @@
+●◉✿  F҈ I҈ C҈ H҈ E҈  J҈ U҈ T҈ S҈ U҈  C҈ R҈ E҈ A҈ T҈ I҈ O҈ N҈  ✿◉●
+
+*Nom de technique* : 
+
+*Réservée à* : 
+
+🅓🅔🅢🅒🅡🅘🅟🅣🅘🅞🅝
+
+~Quels mots ou phrases sur la description du jutsu~
+
+▫️ *Portée précise* : _Distance entre l'utilisateur et la technique_
+
+▫️ *Dimensions (* si variable, préciser *)* : _Taille, diamètre, rayon, épaisseur, etc..._
+
+▫️ *Coût en chakra (* suivant chaque forme *)* : 
+
+▫️ *Temps de préparation (en s)* : _Mudra, initiation et forme finale de la technique_
+
+▫️ *Durée d'activité* : _Chaque tour, unique donc en secondes ou en tour_
+
+```Accueillons un nouveau jutsu !``` ♨️

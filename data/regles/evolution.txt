@@ -1,0 +1,229 @@
+▀▄▀ *SHINOBI NEW GÉNÉRATION* ▀▄▀
+
+░▒▓█ *RÉCOMPENSES* █▓▒░
+
+*Combat singulier* : ▪️Vic ▫️ Déf
+▪️Mauvais Contre : 3 PCN + 3 M$
+▫️Mauvais Contre : -2 M$
+▪️Latence dépassée : 2 PCN + 2 M$
+▫️Latence dépassée : -2 M$
+▪️Abandon : 1 PCN + 2 M$
+▫️Abandon : -5 M$
+
+*Combat 1vs2* : 5 M$ + 3 PCN par adversaire
+
+*Combat 2vs2* : 8 M$ + 3 PCN par adversaire
+
+*Combat 1vs1vs1* : 10 M$ + 5 PCN pour le dernier survivant
+
+*Combat libre* : 2 M$ pour chacun des combattants
+
+*Combat de classement*
+▪️Mauvais Contre : 10 M$ (T) 
+▪️One Shot : 10 M$ (T) + 10 M$ (C) 
+
+*Mission de rang D* : 10 PCN + 5 M$ + technique de rang E
+
+*Mission de rang C* : 5 PCN + 15 M$ + technique de rang D
+
+*Mission de rang B* : 10 PCN + 20 M$ + Technique rang C
+
+*Mission de rang A* : 25 M$ + Technique rang B
+
+*Mission de rang S* : 20 PCN + 30 M$ + technique rang A
+
+*Battle royale 5 membres avec enjeu* : Mise en M$ + Jutsu de rang libre ou Invocation ou Statut de ninja médecin + paumes mystiques
+
+*TOURNOI* :
+▫️5 M$ par victoire en phase de poule
+▫️5 PCN par victoire en phase finale
+▫️3e => 250 M$
+▫️2e => Jutsu de rang < S
+▫️1er => Jutsu de rang libre + affinité ou capacité
+
+*GRADE*
+▫️ Genin : Affinité unique
+▫️ Chunin : Jutsu rang E + 01 jutsu rang B
+▫️ AMBU : Équipements AMBU
+▫️ Jonin : Affinité supplémentaire + 01 jutsu rang A
+▫️ Kage : Affinité supplémentaire + 01 jutsu de chaque rang
+▫️ Nukenin : 100 M$ (perte d'argent et équipements en cas de capture) 
+
+*Quiz SNG* : 1 PCN par réponse
+*Quiz Arbitral* : (n° Question) M$ par réponse
+
+
+░▒▓█ *ÉVOLUTION DES AVATARS* █▓▒░
+
+*Compétence Agilité* : PS (Portée du Saut) AS (Actions Simultanées) BH (Bond Horizontal) 
+▪️PCN <= 10 : 2m PS + 2 AS + 1 Mu/s
+▪️PCN >= 30 : 5m PS + 2 Mu/s
+▪️PCN >= 50 : 10m PS  + 3 AS
+▪️PCN >= 70 : 15m PS (boosté) + 3 Mu/s
+▪️PCN >= 80 : 20m BH (boosté) + visuel réactif sur 8m/s
+▪️PCN >= 100 : 5 AS +  visuel réactif sur 10m/s
+▪️PCN >= 150 : équivalence Minato
+▪️PCN >= 200 : équivalence mode rikudo
+▪️PCN = 250 : équivalence mode baryon
+
+*Compétence Vitesse*
+▪️PCN >= 250 : 25m/s
+▪️PCN >= 200 : 20m/s
+▪️PCN >= 150 : 15m/s
+▪️PCN >= 100 : 10m/s
+▪️PCN >= 90 (complément d'agilité PCN >= 80) : variations de déplacements instantanés
+▪️PCN >= 85 : Déplacements instantanés sur 15m max
+▪️PCN >= 70 : Déplacements instantanés (10m max avec équilibre de 50 PCN) + 8m/s
+▪️PCN >= 50 : 5m/s
+▪️PCN >= 25 : 3m/s
+▪️PCN < 25 : 2m/s
+
+*Compétence Précision*
+▪️PCN > 90 : Précis jusqu'à 100m
+▪️PCN >= 70 : Précis sur 50m
+▪️PCN >= 50 : Précis sur 20m
+▪️PCN >= 25 : Précis sur 10m
+▪️PCN < 25 : Précis sur 5m
+N.B : Précision moyenne = 1m de décalage sur le côté à chaque 5m supplémentaire
+
+*Capacités Sensorielles*
+▪️PCN = 250 : Super ninja sensoriel (portée : toute source de chakra dense se démarquant) 
+▪️PCN >= 200 : Ninja sensoriel expert (portée : jusqu'à 5km) + effacement de présence
+▪️PCN >= 150 : Ninja sensoriel vétéran (portée : jusqu'à 1km) 
+▪️PCN >=100 : Ninja sensoriel amateur (portée : jusqu'à 500m) 
+▪️PCN >= 70 : Statut de ninja sensoriel (jusqu'à 100m si eq=50)
+▪️PCN >= 50 : Réactivité accrue sur 10m et légèrement jusqu'à 12m (ouïe, odorat, toucher, vue) 
+▪️PCN >= 25 : Réactivité accrue sur 5m et légèrement jusqu'à 7m (ouïe, toucher, vue) 
+▪️PCN < 25 : Random (vue et toucher direct) et réactivité légère jusqu'à 3m
+
+*Compétence Force Brute*
+▪️ PCN (1 à 25) : Ninja Random
+▪️ PCN (25 à 50) : Ninja Power
+▪️ PCN > 50 : Super force ninja
+▪️ PCN > 60 : Force boostée au doton
+▪️ PCN > 70 : Force améliorée Sakura
+▪️ PCN >= 100 : Force améliorée Byakugo 
+▪️ PCN >= 150 : Force améliorée des ermites
+▪️ PCN >= 200 : Force améliorée Kinshiki
+▪️ PCN >= 210 : Force améliorée 7e porte céleste
+▪️ PCN >= 220 : Force améliorée Biju
+▪️ PCN >= 230 : Force améliorée Isshiki
+▪️ PCN >= 240 : Sekizô power
+▪️ PCN = 250 : Yagaï power
+N.B : Rapports de force
+❗: Niveau F.B. (A = B) -> Superficiel
+❗: Niveau F.B. (A > B) -> Projection de B
+❗: Niveau F.B. (A >> B) -> Blessures graves
+❗: Niveau F.B. (A >>> B) -> Mort si partie touchée vitale ou broyé au cas contraire
+
+*Compétence Endurance* : UT (Utilisation Technique)
+▪️< 10 PCN : 7 UT
+▪️>= 10 PCN : 10 UT
+▪️>= 20 PCN : 20 UT
+▪️>= 30 PCN : 30 UT
+▪️>= 40 PCN : 40 UT
+▪️>= 50 PCN : 50 UT
+▪️>= 60 PCN : 60 UT
+▪️>= 70 PCN : 70 UT
+▪️>= 80 PCN : 80 UT
+▪️>= 90 PCN : 90 UT
+▪️100 PCN : 100 UT
+▪️150 PCN : 150 UT
+▪️200 PCN : 200 UT
+▪️250 PCN : 250 UT
+▪️300 PCN : 300 UT
+▪️500 PCN : 500 UT
+
+*Étreinte Psychique* : PCN force/endurance ( croissant ) 
+▪️ S uprême : Mystère
+▪️ D ivine : Inconnue
+▪️ E xpert : 100/70 ou 70/100
+▪️ V étéran : 70/50 ou 50/70
+▪️ A mateur : 50/50
+▪️ R andom : 30/30
+
+*Vitesse de lancer* : PCN agilité/force ( croissant) 
+▪️ Niveau 1 (150m) : 100/70 ou 70/100
+▪️ Niveau 2 (100m) : 70/50 ou 50/70
+▪️ Niveau 3 (70m) : 50/50
+▪️ Niveau 4 (50m) : 30/50 ou 50/30
+▪️ Niveau 5 (30m) : jusqu'à 20/20
+
+*Boostage humain* ( nécessite 50 PCN d'équilibre de compétences )
+▪️Flux raiton : + 30A/50V/10F temporaire
+▪️Armure raiton : + 30A/60V/30F temporaire
+▪️Chakra de biju : + 20A/30V/15F - 50 à 70 UT
+▪️Manteau de biju v1 : + 30A/40V/25F - 200 UT
+▪️Manteau de biju v2 : + 40A/50V/50F - 300 UT
+▪️Biju maitrisé (kyubi) : + 50A/100V/50F - 300 UT
+▪️Biju parfait maitrisé (kyubi) : + 60A/150V/70F - 400 UT
+▪️Porte céleste 1 : + 20A/20V/10F
+▪️Porte céleste 2+ : + +20A/10(V-F) 
+
+*Boostage de lancer* ( 25 PCN équilibrés )
+▪️Lancer normal : 5m/s ou 4m/s sans eq. 
+▪️Chakra simple : 8m/s
+▪️Chakra Raiton  : 10m/s
+▪️Futon imprégné : 10m/s
+▪️Chakra Futon : 7m/s
+▪️Jiton : 7m/s
+▪️Fil fin : 5m/s
+▪️Chaîne : 5m/s
+
+⭕ 50 PCN d'agilité et équilibre de 30 PCN : *activation dojutsu + affinité liée(s) au dojutsu*
+▪️Ogan (40S) : + 10P/10S ~temporaire~
+▪️Æmongan : + 10A/20P/10S ~temporaire~
+▪️Sharingan 2 tomoes : + 15A/10P/5S ~temporaire~
+▪️Sharingan 3 tomoes (50 eq) : + 25A/15P/15S ~temporaire~
+▪️Byakugan (40P) : + 20A/25P/25S ~temporaire~
+▪️Ketsuryugan (50A) : + 10A/10P/10S ~temporaire~
+▪️Lumigan (50P) : + 20A/15P/10S ~temporaire~
+
+⭕ 70 PCN agilité + 60 PCN de précision + 50 PCN équilibrés : *évolution du dojutsu*
+▪️MS : + 30A/20P/20S ~temporaire~
+▪️MSE (MS parenté) : + 50A/25P/20S ~temporaire~
+▪️Oningan (50P/50E/50S) : + 20P/20S ~temporaire~
+▪️Oganingan (70E/70S) : ~temporaire~
+▪️Æmongan Full (70P) : + 20A/30P/25S ~temporaire~
+
+⭕ PCN agilité, force brute et endurance > 50 + 50 PCN équilibrés : *activation senjutsu*
+▪️ senjutsu partiel : + moitié d'endurance et d'UT restants + 15PCN/comp ~temporaire~
+▪️ senjutsu normal : + double l'endurance et les UT restants + 30PCN/comp ~temporaire~
+▪️ senjutsu parfait (ermite des hommes) : + triple l'endurance et les UT restants + 50PCN/comp et force brute des ermites ~temporaire~
+
+⭕ 70 PCN de endurance + PCN agilité > 50 + 50 PCN équilibrés + statut ninja sensoriel  : *technique spatio-temporelle*
+
+⭕ 70 PCN capacités sensorielles + PCN endurance > 50 et 50 PCN équilibrés : *statut de ninja sensoriel + éveil de l'Oeil de l'esprit de Kagura* ( ~only Uzumaki~ )
+
+⭕ *Chaînes d'adamantine de scellement + inton* : 70 PCN en endurance et 50 PCN équilibrés ( ~only Uzumaki~ ) 
+
+⭕ *Mokuton* : affinités doton et suiton ( ~only Senju~ ) 
+
+⭕ *Affinité kekkai genkai* : 2 affinités liées à l'affinité recherchée ( ~only perso sans clan de compétence héréditaires~ ) 
+
+⭕ *Affinité kekkai tôta* : 3 affinités liées à l'affinité recherchée ( ~only perso sans clan~ ) 
+
+⭕ Jinchuriki : 70 PCN endurance + 50 PCN équilibrés et technique de scellement de biju, rituel en MA
+
+⭕ Contrôle de son biju : jinchuriki et prendre possession du chakra du biju en battle royale solo ( mise de 25 M$ )
+
+⭕ *Ouverture des portes célestes* : Absence de ninjutsu sauf invocation
+▪️ Porte 1 : 30 PCN équilibrés
+▪️ Portes 2 à 5 : 50 PCN équilibrés
+▪️ Portes 6 : 70 PCN vitesse + 70 agilité + 70 PCN force brute + 70 PCN endurance
+▪️ Portes 7 : 70 PCN vitesse + 70 agilité + 70 PCN force brute + 100 PCN endurance
+▪️ Porte 8 : Full power + PCN endurance > 100
+
+
+*N.B*
+▪️Seule une capacité, en dehors de l'endurance, peut atteindre une limite maximale. 
+▪️La limite de base de l'endurance est de 100 M$. Avec un clan où l'endurance est héréditaire, cette limite peut être dépassée jusqu'à atteindre sa forme finale. 
+▪️La précision et la force brute sont de base limitées à 50. Se spécialiser permet de dépasser cette limite. 
+▪️Un ninja ne peut se spécialiser qu'en 3 compétences en dehors de l'endurance. 
+▪️Dépasser naturellement 70 PCN dans une compétence induit une spécialisation poussée. 
+▪️Les limites d'une spécialisation sont de 70 et 100 mais les capacités sensorielles n'ont de limite que le type de spécialisation du perso. 
+▪️La limite naturelle de PCN de compétences physiques (agilié/force/vitesse) est de 100 PCN.
+▪️Un dojutsu ne donne pas de statut sensoriel !
+▪️Des capacités temporaires ne donnent pas de statut définitif (notamment l'équilibre de PCN) ! 
+
+*Merci de l'attention... ♨️*

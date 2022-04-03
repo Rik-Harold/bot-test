@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Kunai",
+        "prix": 10,
+        "quantite": 0,
+        "illimite": true,
+        "statut": true
+    },
+    {
+        "id": 2,
+        "name": "Shuriken",
+        "prix": 5,
+        "quantite": 0,
+        "illimite": true,
+        "statut": true
+    }
+]

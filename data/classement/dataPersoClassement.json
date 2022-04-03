@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "team": false,
+        "nameTeam": "",
+        "user": 33615641467,
+        "perso": [
+            {
+                "id": 1,
+                "clan": "Uchiha",
+                "nom": "Tagar"
+            },
+            {
+                "id": 7,
+                "clan": "Æshisen",
+                "nom": "Shiræmon"
+            }
+        ],
+        "reputation": [
+            {
+                "titre": "BPM",
+                "nb": 0
+            },
+            {
+                "titre": "Arbitrage",
+                "nb": 0,
+                "supervise": 0,
+                "qualite": []
+            },
+            {
+                "gagne": 0,
+                "perdu": 0,
+                "total": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "team": false,
+        "nameTeam": "",
+        "user": 24102551295,
+        "perso": [
+            {
+                "id": 4,
+                "clan": "Lee",
+                "nom": "Jet"
+            }
+        ],
+        "reputation": [
+            {
+                "titre": "BPM",
+                "nb": 0
+            },
+            {
+                "titre": "Arbitrage",
+                "nb": 0,
+                "supervise": 0,
+                "qualite": []
+            },
+            {
+                "gagne": 0,
+                "perdu": 0,
+                "total": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "team": false,
+        "nameTeam": "",
+        "user": 22568879124,
+        "perso": [
+            {
+                "id": 18,
+                "clan": "Uchiha",
+                "nom": "Inara"
+            }
+        ],
+        "reputation": [
+            {
+                "titre": "BPM",
+                "nb": 0
+            },
+            {
+                "titre": "Arbitrage",
+                "nb": 0,
+                "supervise": 0,
+                "qualite": []
+            },
+            {
+                "gagne": 0,
+                "perdu": 0,
+                "total": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "team": false,
+        "nameTeam": "",
+        "user": 22962629409,
+        "perso": [
+            {
+                "id": 3,
+                "clan": "Inconnu",
+                "nom": "Karuto"
+            }
+        ],
+        "reputation": [
+            {
+                "titre": "BPM",
+                "nb": 0
+            },
+            {
+                "titre": "Arbitrage",
+                "nb": 0,
+                "supervise": 0,
+                "qualite": []
+            },
+            {
+                "gagne": 0,
+                "perdu": 0,
+                "total": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "team": false,
+        "nameTeam": "",
+        "user": 22577766701,
+        "perso": [
+            {
+                "id": 30,
+                "clan": "Inconnu",
+                "nom": "Ryusui"
+            }
+        ],
+        "reputation": [
+            {
+                "titre": "BPM",
+                "nb": 0
+            },
+            {
+                "titre": "Arbitrage",
+                "nb": 0,
+                "supervise": 0,
+                "qualite": []
+            },
+            {
+                "gagne": 0,
+                "perdu": 0,
+                "total": 0
+            }
+        ]
+    }
+]

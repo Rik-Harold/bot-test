@@ -1,0 +1,740 @@
+[
+    {
+        "actif": true,
+        "type": "P",
+        "id": 1,
+        "clan": "Uchiha",
+        "name": "Tagar",
+        "pays": "Pays du feu",
+        "village": "Oto",
+        "parente": "Frère cadet de Shisui",
+        "age": "22",
+        "taille": "1.80",
+        "grade": "Nukenin",
+        "user": "33615641467",
+        "dnPerso": "18 - 12 - 2022",
+        "dnMembre": "13 - 11",
+        "affinite": [
+            "Katon",
+            "Inton",
+            "Futon"
+        ],
+        "capHereditaire": [
+            "Sharingan",
+            "Mangekyo Sharingan Eternel"
+        ],
+        "capCompSpeciale": "Absorption de chakra",
+        "statut": "Aucun",
+        "jutsu": [
+            {
+                "titre": "Rang E, D et C",
+                "listJutsu": [
+                    "Katon - balsamine",
+                    "Technique de clone",
+                    "Entaille des flammes",
+                    "Poigne du serpent spectral",
+                    "Katon - boule de feu suprême"
+                ]
+            },
+            {
+                "titre": "Rang B et A",
+                "listJutsu": [
+                    "Rasengan",
+                    "Multi clonage",
+                    "Katana volant",
+                    "Futon - vague du vide",
+                    "Invocation de serpent",
+                    "Clone d'mages rémanentes",
+                    "Katon - feu du dragon suprême",
+                    "Barrière de scintillement solaire",
+                    "Katon - Nuée Ardente",
+                    "Futon - Bouclier du dieu de vent"
+                ]
+            },
+            {
+                "titre": "Rang S et autres",
+                "listJutsu": [
+                    "Susano",
+                    "Bouclier de Yata",
+                    "Tomerarenai Yari",
+                    "Koto amatsukami",
+                    "Susanô - Tsukumo",
+                    "Gensõ Tekina genjitsu",
+                    "Futon - disque Excalibur",
+                    "Malédiction de la faucheuse"
+                ]
+            }
+        ],
+        "competences": {
+            "agilite": 85,
+            "vitesse": 90,
+            "precision": 70,
+            "endurance": 60,
+            "force": 50,
+            "senso": 50,
+            "etreinte": "Vétéran",
+            "limiteClan": 150
+        },
+        "chakra": 50,
+        "equipements": [
+            {
+                "libelle": "Kunai",
+                "quantite": 5,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Shuriken",
+                "quantite": 5,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe fumigène",
+                "quantite": 3,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe aveuglante",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Lot de 4 parchemins explosifs",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            }
+        ],
+        "armePrincipale": "Épée légendaire de Kusanagi ",
+        "missions": [
+            {
+                "rang": "D",
+                "reussi": 0,
+                "total": 0
+            },
+            {
+                "rang": "C",
+                "reussi": 0,
+                "total": 0
+            },
+            {
+                "rang": "B",
+                "reussi": 1,
+                "total": 1
+            },
+            {
+                "rang": "A",
+                "reussi": 2,
+                "total": 2
+            },
+            {
+                "rang": "S",
+                "reussi": 0,
+                "total": 0
+            }
+        ],
+        "experience": [
+            {
+                "date": "18/12/2021",
+                "description": "Création du perso et intégration dans la communauté."
+            },
+            {
+                "date": "10/01/2022",
+                "description": "Tagar réussit à infiltrer Konoha, berner les plus grands shinobi à ses côtés et convaincre Orochimaru de déserter le village avec lui. Un exploit qui lui aura vallu le don de l'épée légendaire de kusanagi."
+            },
+            {
+                "date": "12/03/2022",
+                "description": "Infiltre Taki avec ses élèves, Senzæmon, Sæmon et Lawkey, et conclut un marché avec Kisaki qui trahit son village une quête de puissance pour tuer son frère Inara."
+            }
+        ]
+    },
+    {
+        "actif": true,
+        "type": "P",
+        "id": 2,
+        "clan": "Uchiha",
+        "name": "Kisaki",
+        "pays": "Pays du feu",
+        "village": "Taki",
+        "parente": "Frère cadet de Inara",
+        "age": 18,
+        "taille": 1.75,
+        "grade": "Genin",
+        "user": "22383217280",
+        "dnPerso": "?? - ?? - 2021",
+        "dnMembre": "04 - 09",
+        "affinite": [
+            "Katon",
+            "Raiton",
+            "Inton"
+        ],
+        "capHereditaire": [
+            "Sharingan",
+            "Mangekyo Sharingan"
+        ],
+        "capCompSpeciale": "Aucune",
+        "statut": "Ninja sensoriel",
+        "jutsu": [
+            {
+                "titre": "Rang E, D et C",
+                "listJutsu": [
+                    "Katsu",
+                    "Katon - boule de feu suprême",
+                    "Katon - balsamine",
+                    "Raiton - crocs traqueurs de la bête de foudre"
+                ]
+            },
+            {
+                "titre": "Rang B et A",
+                "listJutsu": [
+                    "Multi clonage",
+                    "Sphère célecte",
+                    "Raiton - milles oiseaux",
+                    "Raiton - étreinte des 4 piliers",
+                    "Katon - feu du dragon suprême",
+                    "Formation de la flamme des Uchiha"
+                ]
+            },
+            {
+                "titre": "Rang S et autres",
+                "listJutsu": [
+                    "Susano",
+                    "Tsukuyomi",
+                    "Raiton - kirin",
+                    "Katon - dernière incendie"
+                ]
+            }
+        ],
+        "competences": {
+            "agilite": 70,
+            "vitesse": 50,
+            "precision": 60,
+            "endurance": 74,
+            "force": 50,
+            "senso": 70,
+            "etreinte": "Vétéran",
+            "limiteClan": 150
+        },
+        "chakra": 70,
+        "equipements": [
+            {
+                "libelle": "Kunai",
+                "quantite": 10,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Shuriken",
+                "quantite": 2,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Shuriken Fuma",
+                "quantite": 2,
+                "principal": true,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe fumigène",
+                "quantite": 3,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe aveuglante",
+                "quantite": 4,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe de piment",
+                "quantite": 2,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Fil fin",
+                "quantite": 3,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Parchemin explosif",
+                "quantite": 7,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Cape noire",
+                "quantite": 1,
+                "principal": true,
+                "rouleau": false,
+                "sousEquiements": []
+            }
+        ],
+        "armePrincipale": "Katana",
+        "missions": [
+            {
+                "rang": "D",
+                "reussi": 1,
+                "total": 3
+            },
+            {
+                "rang": "C",
+                "reussi": 2,
+                "total": 2
+            },
+            {
+                "rang": "B",
+                "reussi": 1,
+                "total": 1
+            },
+            {
+                "rang": "A",
+                "reussi": 1,
+                "total": 4
+            },
+            {
+                "rang": "S",
+                "reussi": 0,
+                "total": 0
+            }
+        ],
+        "experience": [
+            {
+                "date": "12/12/2021",
+                "description": "Création du perso et intégration dans la communauté."
+            },
+            {
+                "date": "10/01/2022",
+                "description": "Après avoir acquis la puissance et de nombreuses techniques et débloqué le kaleidoscope de façon mystérieuse, le jeune Kisaki décide de suivre sa voie désormais."
+            }
+        ]
+    },
+    {
+        "actif": true,
+        "type": "P",
+        "id": 3,
+        "clan": "Inconnu",
+        "name": "Karuto",
+        "pays": "Pays de la Cascade",
+        "village": "Taki",
+        "parente": "Fils de Kakuzu",
+        "age": 18,
+        "taille": 1.85,
+        "grade": "Chunin",
+        "user": "22962629409",
+        "dnPerso": "20 - 10 - 2021",
+        "dnMembre": "12 - 11",
+        "affinite": [
+            "Futon",
+            "Doton"
+        ],
+        "capHereditaire": [
+            "Aucune"
+        ],
+        "capCompSpeciale": "Aucune",
+        "statut": "Aucun",
+        "jutsu": [
+            {
+                "titre": "Rang E, D et C",
+                "listJutsu": [
+                    "Katsu",
+                    "Métamorphose",
+                    "Ombre de la feuille morte",
+                    "Pluie de milles aiguilles",
+                    "Poigne du serpent spectral",
+                    "Rupture de genjutsu",
+                    "Sexy jutsu",
+                    "Technique de clone",
+                    "Technique de la cape d'invisibilité",
+                    "Technique pour dénouer les liens",
+                    "Déplacement instantané",
+                    "Shuriken fuma de l'ombre",
+                    "Tornade de konoha",
+                    "L'aigle de Taki",
+                    "Doton - pierre volantes",
+                    "Doton - sable mouvant",
+                    "Doton - taupe furtive",
+                    "Doton - étreinte tectonique",
+                    "Futon - grande percée",
+                    "Futon - percée",
+                    "Futon - paumes de la bourrasque"
+                ]
+            },
+            {
+                "titre": "Rang B et A",
+                "listJutsu": [
+                    "Barrière canopy",
+                    "Camouflage dans la lumière",
+                    "Multi clonage",
+                    "Rasengan",
+                    "Doton - corps de fer",
+                    "Doton - golem de pierre",
+                    "Doton - marécage de limbes",
+                    "Doton - mur de terre",
+                    "Doton - noyau de rotation terrestre",
+                    "Futon - déferlante du vide",
+                    "Futon - vague du vide",
+                    "Invocation de serpent"
+                ]
+            },
+            {
+                "titre": "Rang S et autres",
+                "listJutsu": [
+                    "Crainte de la rancueur de la Terre",
+                    "Futon - destination finale",
+                    "Futon - mur de vent",
+                    "Réincarnation des âmes",
+                    "Technique secrète - le sceau de Tsukami shoji"
+                ]
+            }
+        ],
+        "competences": {
+            "agilite": 90,
+            "vitesse": 100,
+            "precision": 50,
+            "endurance": 70,
+            "force": 50,
+            "senso": 50,
+            "etreinte": "Vétéran",
+            "limiteClan": 100
+        },
+        "chakra": 70,
+        "equipements": [
+            {
+                "libelle": "Kunai",
+                "quantite": 25,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Shuriken",
+                "quantite": 25,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe fumigène",
+                "quantite": 5,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Parchemin explosif",
+                "quantite": 24,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe aveuglante",
+                "quantite": 5,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Shuriken fuma",
+                "quantite": 10,
+                "principal": true,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Lunettes de soleil",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bandage de sceau d'invocation d'armes",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": true,
+                "sousEquiements": [
+                    {
+                        "libelle": "Corde d'or de la Canopée",
+                        "quantite": 1
+                    },
+                    {
+                        "libelle": "Vase d'ambre",
+                        "quantite": 1
+                    },
+                    {
+                        "libelle": "Bombe fumigène",
+                        "quantite": 5
+                    },
+                    {
+                        "libelle": "Bombe aveuglante",
+                        "quantite": 5
+                    },
+                    {
+                        "libelle": "Rouleau vierge",
+                        "quantite": 8
+                    }
+                ]
+            },
+            {
+                "libelle": "Masque spécial",
+                "quantite": 7,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Rouleau vierge",
+                "quantite": 2,
+                "principal": false,
+                "rouleau": true,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Spécial parchemin d'invocation de kunai",
+                "quantite": 5,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Rouleau d'invocation d'armes",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": true,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Baque de mariage (premium)",
+                "quantite": 2,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bague de fiançailles",
+                "quantite": 2,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            }
+        ],
+        "armePrincipale": "Eventail du bananier",
+        "missions": [
+            {
+                "rang": "D",
+                "reussi": 5,
+                "total": 5
+            },
+            {
+                "rang": "C",
+                "reussi": 8,
+                "total": 9
+            },
+            {
+                "rang": "B",
+                "reussi": 10,
+                "total": 11
+            },
+            {
+                "rang": "A",
+                "reussi": 10,
+                "total": 12
+            },
+            {
+                "rang": "S",
+                "reussi": 1,
+                "total": 1
+            }
+        ],
+        "experience": [
+            {
+                "date": "20/10/2021",
+                "description": "Création du perso et intégration dans la communauté."
+            },
+            {
+                "date": "22/10/2021",
+                "description": "Gagne son premier combat dans l'arène."
+            },
+            {
+                "date": "23/10/2021",
+                "description": "Transporté de son époque à une autre où il retrouve son village et est accepté par les siens mais dans un éat où son père est devenu un paria, un criminel recherché un peu partout dans le monde."
+            },
+            {
+                "date": "27/10/2021",
+                "description": "Réussi sa première mission"
+            },
+            {
+                "date": "05/11/2021",
+                "description": "Devient membre de l'équipe 9 de taki, a ses côtés se trouve Alex Pretty."
+            },
+            {
+                "date": "06/11/2021",
+                "description": "Seul représentant de Taki, karuto s'est rendue a iwa pour passer l'examen de sélection de Chunin."
+            },
+            {
+                "date": "13/11/2021",
+                "description": "Promu Chunin lors de l'examen de sélection des chunin d'Iwa. Karuto fini' 1er au tournoi organisé. Examen qui lui permettra de la faire la connaissance de Giltachi de konoha, Hakam de kumo et Ganko du désert."
+            },
+            {
+                "date": "20/11/2021",
+                "description": "Karuto s'est greffé 02 masques (spéciaux) dans le dos."
+            },
+            {
+                "date": "17/12/2021",
+                "description": "Karuto devient maître des serpents après avoir signé un pacte de sang avec ces derniers."
+            },
+            {
+                "date": "23/12/2022",
+                "description": "Assiste à la mort de Stark et l'enlèvement de Hadès dans une mission d'éclaireur qui s'est soldée par un échec total. Mais il réussit à récupérer la dépouille de Stark et se cache dans une grotte avec Valar."
+            },
+            {
+                "date": "08/01/2022",
+                "description": "Karuto greffe deux autres masques ( spéciaux ) sur son dos. 04 masques aux total greffés au dos."
+            },
+            {
+                "date": "23/01/2022",
+                "description": "Fait la rencontre de deux êtres étrangement bizarres ( Zetsu noir et Zetsu blanc ). Exécute pour la première sa technique de réincarnation des âmes pour ramener à la vie Stark & Momoruto. Rentre au village par la suite et explique au chef du village toute sa mésaventure pour éviter tout malentendu. Il a en sa possession 05 clones de Zetsu blancs."
+            }
+        ]
+    },
+    {
+        "actif": true,
+        "type": "P",
+        "id": 4,
+        "clan": "Lee",
+        "name": "Jet",
+        "pays": "Pays de la Terre",
+        "village": "Iwa",
+        "parente": "Inconnu",
+        "age": 12,
+        "taille": 1.5,
+        "grade": "Genin",
+        "user": "24102551295",
+        "dnPerso": "25 - 01 - 2022",
+        "dnMembre": "03 - 05",
+        "affinite": [
+            "Goken"
+        ],
+        "capHereditaire": [
+            "Aucune"
+        ],
+        "capCompSpeciale": "Aucune",
+        "statut": "Aucun",
+        "jutsu": [
+            {
+                "titre": "Rang E, D et C",
+                "listJutsu": [
+                    "Ombre de la feuille morte"
+                ]
+            },
+            {
+                "titre": "Rang B et A",
+                "listJutsu": [
+                    " ~Aucune~"
+                ]
+            },
+            {
+                "titre": "Rang S et autres",
+                "listJutsu": [
+                    " ~Aucune~"
+                ]
+            }
+        ],
+        "competences": {
+            "agilite": 25,
+            "vitesse": 25,
+            "precision": 3,
+            "endurance": 20,
+            "force": 25,
+            "senso": 2,
+            "etreinte": "Random",
+            "limiteClan": 100
+        },
+        "chakra": 20,
+        "equipements": [
+            {
+                "libelle": "Kunai",
+                "quantite": 2,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Shuriken",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Bombe fumigène",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            },
+            {
+                "libelle": "Fil fin",
+                "quantite": 1,
+                "principal": false,
+                "rouleau": false,
+                "sousEquiements": []
+            }
+        ],
+        "armePrincipale": "Aucun",
+        "missions": [
+            {
+                "rang": "D",
+                "reussi": 0,
+                "total": 0
+            },
+            {
+                "rang": "C",
+                "reussi": 0,
+                "total": 0
+            },
+            {
+                "rang": "B",
+                "reussi": 0,
+                "total": 0
+            },
+            {
+                "rang": "A",
+                "reussi": 0,
+                "total": 0
+            },
+            {
+                "rang": "S",
+                "reussi": 0,
+                "total": 0
+            }
+        ],
+        "experience": [
+            {
+                "date": "25/01/2022",
+                "description": "Création du perso et intégration dans la communauté."
+            }
+        ]
+    }
+]

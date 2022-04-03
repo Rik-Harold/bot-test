@@ -1,0 +1,43 @@
+*Rᴇ̀ɢʟᴇs Gᴇ́ɴᴇ́ʀᴀʟᴇs ᴅᴜ Cʟᴀssᴇᴍᴇɴᴛ ᴅᴇ Tᴇᴀᴍ`*
+
+Le système du classement des TEAM, né le ```1er Mars 2022```, se décompose suivant les critères ci-dessous :
+
+*ORGANISATION DU CLASSEMENT DES TEAM*
+▫️Fiche de classement des Team : actualisation hebdomadaire (chaque dimanche). 
+▫️Intégrer le classement débute par la dernière place. 
+▫️Un enjeu de gagné contre une Team mieux classée récompense la Team d'une technique de rang C. 
+▫️Un enjeu de gagné contre une Team moins classée récompense la Team d'une technique de rang D. 
+▫️Un enjeu de perdu retire 10 M$ à la Team concernée et la rétrograde d'un rang. 
+▫️Un enjeu nul donne une technique de rang E aux deux Team. 
+▫️Une Team qui gagne un enjeu contre la 1ère place gagne une technique de rang S.
+▫️Une Team qui perd un enjeu contre la 1ère place est rétrogradée au bas du classement.
+▫️Une Team au bas du classement qui dérobe la 1ère place gagne un bonus d'une technique de rang B. 
+
+*ORGANISATION DES ENJEUX*
+⭕ Un enjeu peut débuter dans chacune des deux arènes conformément aux exigences de la fiche d'enjeu de Team. 
+⭕ Ne sont autorisés à combattre que les membres mentionnés dans une famille unique. 
+⭕ Chaque enjeu nécessite obligatoirement un arbitre qui ne peut pas être membre d'une des deux Team en jeu.
+⭕ Le tour de passage en enjeu est définie par la Team la mieux classée qui débute le combat. 
+⭕ Chaque enjeu de Team sauf la première place est à manche unique.
+⭕ Un enjeu pour la 1ère place du classement nécessite 02 manches et 02 victoires pour dérober la place. Un nul maintient le résultat de l'enjeu de la manche victorieuse. 
+⭕ Un membre d'une TEAM peut utiliser chacun de ses perso approuvés par les actuelles règles de la communauté afin de prétendre à un « DÉFI de TEAM ».
+⭕ Une Team enregistrée a l'obligation d'effectuer un nombre d'enjeu hebdomadaire équivalent au nombre de membres qu'elle compte. 
+⭕ Une Team ne remplissant pas son quota d'enjeu hebdomadaire sera rétrogradée d'un rang et perdra une somme équivalent au cumul des victoires dont elle est sensée faire preuve. 
+
+*ORGANISATION DES TEAM*
+▪️Une TEAM est créée avec au moins 3 membres qui devront chacun payer l'équivalent d'une victoire de défi de Team pour ainsi composer la cagnotte de l'équipe.
+▪️Chaque Team est limitée à 5 membres, chef de famille inclu, mais avec un seul mercenaire au plus. 
+▪️Un membre ne peut intégrer une TEAM qu'une seule fois par semaine. Il lui est interdit d'être membre de deux TEAM différentes. 
+▪️Chaque nouveau membre doit payer la taxe d'intégration afin d'être reconnu membre d'une TEAM. 
+▪️Les mercenaires sont des membres sans Team qui combattent par enjeu au nom d'une famille les ayant recruté. 
+▪️Un mercenaire ne peut dépasser 02 enjeux pour une même famille dans une même semaine.
+▪️Les récompenses d'enjeu de Team sont partagées entre membres d'une même Team. 
+▪️La marge de victorieuse est la différence entre les victoires et les défaites d'une Team.
+> Quand elle est positive, chaque membre de la Team gagne un nombre de PCN équivalent à cette marge. 
+> Quand elle est négative, chaque membre de la famille perd une somme équivalente à sa valeur.
+▪️Une Team qui totalise le plus grand nombre d'enjeux et la plus grande marge victorieuse gagne un trophée mensuel : le Best Team of the Month ( 🌀 )
+▪️Une membre qui totalise le plus grand nombre de victoires mensuelles gagne un trophée : le Best Player of the Month ( 💯 )
+▪️Le 🌀 récompense chaque membre d'une Team par une technique de rang A. 
+▪️Le 💯 récompense chaque membre d'une Team par une technique de rang S et un mercenaire par une technique de rang libre. 
+
+*Merci ♨️*
