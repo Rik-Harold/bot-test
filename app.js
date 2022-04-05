@@ -25,8 +25,8 @@ let restreints = {
     boutique: [],
     all: []
 }
-let boutiquiers = [8618752355751, 234844347013, 22961809807]
-let banquiers = [8618752355751, 22577766701]
+let boutiquiers = [8618752355751]
+let banquiers = [8618752355751]
 
 /*
     * FONCTION D'OUVERTURE DES FONCTIONNALITES *
@@ -56,14 +56,8 @@ const withSession = () => {
         botSNG_Boutique('237698731569-1589034114@g.us')
 
         // Gestion de la base de données
-        botSNG('8618752355751-1622481565@g.us')
-        botDB('8618752355751-1622481565@g.us')
-
-        // Gestion des bannissements
-        bannissement('8618752355751-1575229409@g.us')
-        bannissement('237698731569-1589034114@g.us')
-        bannissement('8618752355751-1622481565@g.us')
-        bannissement('120363039858602742@g.us')
+        // botSNG('8618752355751-1622481565@g.us')
+        // botDB('8618752355751-1622481565@g.us')
 
 
         // Other groups
