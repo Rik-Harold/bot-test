@@ -1,7 +1,7 @@
 // Importation des dépendances
 const fs = require('fs')
 const qrcode = require('qrcode-terminal')
-const { Client, LegacySessionAuth, MessageMedia } = require('whatsapp-web.js')
+const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js')
 
 // Importation des données
 const articles = require('./data/boutique/articles.json')
@@ -13,8 +13,8 @@ const dataPersoClassement = require('./data/classement/dataPersoClassement.json'
 // Importation des bdd prime
 const persoPrime = require('./neon/fiches/persoPrime.json')
 
-// Déclaration des variables de session 120363023938067293@g.us
-const SESSION_FILE_PATH = './privateFiles/session.json'
+// Déclaration des variables de session
+const SESSION_FILE_PATH = './.wwebjs_auth/session'
 let bot
 let session_data
 
@@ -25,8 +25,8 @@ let restreints = {
     boutique: [],
     all: []
 }
-let boutiquiers = [33615641467, 234844347013, 22961809807]
-let banquiers = [33615641467, 22577766701]
+let boutiquiers = [8618752355751, 234844347013, 22961809807]
+let banquiers = [8618752355751, 22577766701]
 
 /*
     * FONCTION D'OUVERTURE DES FONCTIONNALITES *
@@ -38,9 +38,7 @@ const withSession = () => {
 
     // Initialisation de l'objet Client : BOT
     bot = new Client({
-        authStrategy: new LegacySessionAuth({
-            session: session_data
-        })
+        authStrategy: new LocalAuth()
     })
 
     // Démarrage de l'utilisation du bot
@@ -49,22 +47,22 @@ const withSession = () => {
         console.log('---Le Bot est prêt !')
 
         // Gestion de la communauté dans le groupe principal
-        botSNG('33615641467-1575229409@g.us')
+        botSNG('8618752355751-1575229409@g.us')
 
         // Gestion du classement shinobi à SNG
-        botShinobi('33615641467-1575229409@g.us')
+        botShinobi('8618752355751-1575229409@g.us')
 
         // Gestion des transactions de la banque/boutique ninja
         botSNG_Boutique('237698731569-1589034114@g.us')
 
         // Gestion de la base de données
-        botSNG('33615641467-1622481565@g.us')
-        botDB('33615641467-1622481565@g.us')
+        botSNG('8618752355751-1622481565@g.us')
+        botDB('8618752355751-1622481565@g.us')
 
         // Gestion des bannissements
-        bannissement('33615641467-1575229409@g.us')
+        bannissement('8618752355751-1575229409@g.us')
         bannissement('237698731569-1589034114@g.us')
-        bannissement('33615641467-1622481565@g.us')
+        bannissement('8618752355751-1622481565@g.us')
         bannissement('120363039858602742@g.us')
 
 
@@ -102,7 +100,9 @@ const withOutSession = () => {
     console.log('Absence de variable de session')
 
     // Initialisation de l'objet Client : BOT
-    bot = new Client()
+    bot = new Client({
+        authStrategy: new LocalAuth()
+    })
 
     // Ecoute de l'évènement QR Code
     bot.on('qr', qr => {
@@ -111,11 +111,11 @@ const withOutSession = () => {
     })
 
     // Création de la variable de session par authentification
-    bot.on('authenticated', (session) => {
+    bot.on('authenticated', async(session) => {
         // Enregistrement de la variable de session
         session_data = session;
         // Création du fichier json dans lequel le stocker définitivement
-        fs.writeFile(SESSION_FILE_PATH, JSON.stringify(session), (err) => {
+        fs.writeFile(SESSION_FILE_PATH, session, (err) => {
             if (err) {
                 console.error(err);
             }
@@ -197,7 +197,7 @@ const sendMessageTest = (ganko) => {
     bot.on('message', (msg) => {
         const { from, to, body } = msg
 
-        if (from == ganko && to == '33615641467@c.us')
+        if (from == ganko && to == '8618752355751@c.us')
         {
             // Affichage du message dans la console
             console.log(body)
@@ -233,20 +233,22 @@ const sendMessageTestNeon = (neon) => {
 
         console.log(body)
 
-        if ((from == neon && to == '33615641467@c.us') || (from == '33615641467@c.us' && to == neon))
+        if ((from == neon && to == '8618752355751@c.us') || (from == '8618752355751@c.us' && to == neon))
         {
             // Conditionnement des réponses
             switch (body)
             {
                 case '! Tagar':
                     // Récupération de l'image de l'avatar
-                    const sourceImg = './assets/images/avatars/tagar_1.jpeg'
-                    sendImageAvatar(sourceImg, msg)
+                    // const sourceImg = './assets/images/avatars/tagar_1.jpeg'
+                    // sendImageAvatar(sourceImg, msg)
+                    console.log('Test image')
                     break;
                 case '> tagar':
                     // Récupération de l'image de l'avatar
-                    const sourceImg2 = './assets/images/avatars/tagar_2.jpeg'
-                    sendImageAvatar(sourceImg2, msg)
+                    // const sourceImg2 = './assets/images/avatars/tagar_2.jpeg'
+                    // sendImageAvatar(sourceImg2, msg)
+                    console.log('Test image')
                     break
             }
         }
@@ -276,18 +278,18 @@ const fuin = async(msg) => {
             // Bannissement
             restreints.all.push(membreBan[0].number)
             // Notification de bannissement
-            msg.reply('```Membre scellé avec succès !```')
+            msg.reply('```Membre restreint !```')
         } else
         {
             // Notification
-            msg.reply('```Le membre a déjà été banni !```')
+            msg.reply('```Ce membre a déjà été restreint !```')
         }
     } else 
     {
         // Bannissement
         restreints.all.push(membreBan[0].number)
         // Notification de bannissement
-        msg.reply('```Membre scellé avec succès !```')
+        msg.reply('```Membre restreint !```')
     }
 }
 
@@ -334,7 +336,7 @@ const bannissement = (groupe) => {
         const { from, to, body } = msg
 
         // Tri des requêtes au bot (from == boutiqueNina) 
-        if ((from == '33615641467@c.us') && (to == groupe))
+        if ((from == '8618752355751@c.us') && (to == groupe))
         {
             // Récupération des infos de traitement
             const indice = body.substr(0, 1)
@@ -372,7 +374,7 @@ const botSNG_Boutique = (boutiqueNina) => {
         const { from, to, body } = msg
 
         // Tri des requêtes au bot
-        if ((from == boutiqueNina) || ((from == '33615641467@c.us') && (to == boutiqueNina)))
+        if ((from == boutiqueNina) || ((from == '8618752355751@c.us') && (to == boutiqueNina)))
         {
             // Récupération des infos de traitement
             const indice = body.substr(0, 1)
@@ -499,7 +501,7 @@ const botSNG_Boutique = (boutiqueNina) => {
                             })
                         } else if (body.substr(0, 16) == '>>> *NEW COMPTE*')
                         {
-                            if ((from == '33615641467@c.us') && (to == boutiqueNina))
+                            if ((from == '8618752355751@c.us') && (to == boutiqueNina))
                             {
                                 // Création de la fiche perso
                                 newCompteSNG(msg)
@@ -507,7 +509,7 @@ const botSNG_Boutique = (boutiqueNina) => {
                             {
                                 msg.reply('🥷🏽 *Genjutsu - kai !*')
                             }
-                        } else if ((from == '33615641467@c.us') && (to == boutiqueNina) && (body.substr(1, 7).toLowerCase() == 'accueil')) 
+                        } else if ((from == '8618752355751@c.us') && (to == boutiqueNina) && (body.substr(1, 7).toLowerCase() == 'accueil')) 
                         {
                             // Récupération du numéro à ajouter
                             const num = msg.body.split(' ')
@@ -522,7 +524,7 @@ const botSNG_Boutique = (boutiqueNina) => {
                                 // Log d'ajout impossible
                                 console.log('Numéro invalide')
                             }
-                        } else if ((from == '33615641467@c.us') && (to == boutiqueNina) && (body.substr(1, 9).toLowerCase() == 'desertion')) 
+                        } else if ((from == '8618752355751@c.us') && (to == boutiqueNina) && (body.substr(1, 9).toLowerCase() == 'desertion')) 
                         {
                             // Récupération du numéro à ajouter
                             const num = msg.body.split('@')
@@ -1136,8 +1138,8 @@ const botSNG = (groupe) => {
         // Récupération des composants du message
         const { from, to, body } = msg
 
-        // Tri des requêtes au bot  || (from == '33615641467@c.us')
-        if ((from == groupe) || ((from == '33615641467@c.us') && (to == groupe)))
+        // Tri des requêtes au bot  || (from == '8618752355751@c.us')
+        if ((from == groupe) || ((from == '8618752355751@c.us') && (to == groupe)))
         {
             // Récupération des infos de traitement
             const indice = body.substr(0, 1)
@@ -1381,7 +1383,7 @@ const botSNG = (groupe) => {
                             }
                         } else if (body.substr(0, 21) == '>>> *NEW FICHE PERSO*')
                         {
-                            if ((from == '33615641467@c.us') && (to == groupe))
+                            if ((from == '8618752355751@c.us') && (to == groupe))
                             {
                                 // Création de la fiche perso
                                 newPersoSNG(msg)
@@ -1389,7 +1391,7 @@ const botSNG = (groupe) => {
                             {
                                 msg.reply('🥷🏽 *Genjutsu - kai !*')
                             }
-                        } else if ((from == '33615641467@c.us') && (to == groupe) && (body.substr(1, 7).toLowerCase() == 'accueil')) 
+                        } else if ((from == '8618752355751@c.us') && (to == groupe) && (body.substr(1, 7).toLowerCase() == 'accueil')) 
                         {
                             // Récupération du numéro à ajouter
                             const num = msg.body.split(' ')
@@ -1404,7 +1406,7 @@ const botSNG = (groupe) => {
                                 // Log d'ajout impossible
                                 console.log('Numéro invalide')
                             }
-                        } else if ((from == '33615641467@c.us') && (to == groupe) && (body.substr(1, 9).toLowerCase() == 'desertion')) 
+                        } else if ((from == '8618752355751@c.us') && (to == groupe) && (body.substr(1, 9).toLowerCase() == 'desertion')) 
                         {
                             // Récupération du numéro à ajouter
                             const num = msg.body.split('@')
@@ -1451,15 +1453,15 @@ const botDB = (groupe) => {
         // Récupération des composants du message
         const { from, to, body } = msg
 
-        // Tri des requêtes au bot  (from == groupe) || ((from == '33615641467@c.us') && (to == groupe))
-        if ((from == groupe) || ((from == '33615641467@c.us') && (to == groupe)))
+        // Tri des requêtes au bot  (from == groupe) || ((from == '8618752355751@c.us') && (to == groupe))
+        if ((from == groupe) || ((from == '8618752355751@c.us') && (to == groupe)))
         {
             if (body.substr(0, 13).toLowerCase() == 'actualisation')
             {
                 // Requête d'actualisation de fiche
                 actualisationFiche(body, msg)
 
-            } else if ((from == '33615641467@c.us') && (to == groupe) && (body.substr(1, 7).toLowerCase() == 'accueil')) 
+            } else if ((from == '8618752355751@c.us') && (to == groupe) && (body.substr(1, 7).toLowerCase() == 'accueil')) 
             {
                 // Récupération du numéro à ajouter
                 const num = msg.body.split(' ')
@@ -1474,7 +1476,7 @@ const botDB = (groupe) => {
                     // Log d'ajout impossible
                     console.log('Numéro invalide')
                 }
-            } else if ((from == '33615641467@c.us') && (to == groupe) && (body.substr(1, 9).toLowerCase() == 'desertion')) 
+            } else if ((from == '8618752355751@c.us') && (to == groupe) && (body.substr(1, 9).toLowerCase() == 'desertion')) 
             {
                 // Récupération du numéro à ajouter
                 const num = msg.body.split('@')
@@ -1503,7 +1505,7 @@ const botShinobi = (groupe) => {
         const { from, to, body } = msg
 
         // Tri des requêtes au bot
-        if ((from == groupe) || ((from == '33615641467@c.us') && (to == groupe)))
+        if ((from == groupe) || ((from == '8618752355751@c.us') && (to == groupe)))
         {
             // Récupération des infos de traitement
             const indice = body.substr(0, 1)
@@ -1615,7 +1617,7 @@ const botShinobi = (groupe) => {
 
                         } else if (body.substr(2, 3).toLowerCase() == 'new')
                         {
-                            if (((from == '33615641467@c.us') && (to == groupe)) || (from == '237696813190@c.us'))
+                            if (((from == '8618752355751@c.us') && (to == groupe)) || (from == '237696813190@c.us'))
                             {
                                 // Récupération de la requête
                                 const preparation = body.split('\n')
@@ -1642,7 +1644,7 @@ const botShinobi = (groupe) => {
                             {
                                 msg.reply('🥷🏽 *Genjutsu - kai !*')
                             }
-                        } else if ((from == '33615641467@c.us') && (to == groupe) && (body.substr(2, 9).toLowerCase() == 'bienvenue')) 
+                        } else if ((from == '8618752355751@c.us') && (to == groupe) && (body.substr(2, 9).toLowerCase() == 'bienvenue')) 
                         {
                             // Récupération du numéro à ajouter
                             const num = msg.body.split(' ')
@@ -1657,7 +1659,7 @@ const botShinobi = (groupe) => {
                                 // Log d'ajout impossible
                                 console.log('Numéro invalide')
                             }
-                        } else if ((from == '33615641467@c.us') && (to == groupe) && (body.substr(2, 3).toLowerCase() == 'bye')) 
+                        } else if ((from == '8618752355751@c.us') && (to == groupe) && (body.substr(2, 3).toLowerCase() == 'bye')) 
                         {
                             // Récupération du numéro à ajouter
                             const num = msg.body.split('@')
@@ -1706,8 +1708,8 @@ const botPrime = (groupe) => {
         // Récupération des composants du message
         const { from, to, body } = msg
 
-        // Tri des requêtes au bot  || (from == '33615641467@c.us')
-        if ((from == groupe) || ((from == '33615641467@c.us') && (to == groupe)))
+        // Tri des requêtes au bot
+        if ((from == groupe) || ((from == '8618752355751@c.us') && (to == groupe)))
         {
             // Récupération des infos de traitement
             const indice = body.substr(0, 1)
@@ -1808,7 +1810,7 @@ const botPrime = (groupe) => {
                             }
                         } else if (body.substr(1, 5) == 'build')
                         {
-                            if (((from == '33615641467@c.us') && (to == groupe)) || ((from == '8618752355751@c.us') && (to == groupe)))
+                            if (((from == '8618752355751@c.us') && (to == groupe)) || ((from == '8618752355751@c.us') && (to == groupe)))
                             {
                                 // Création de la fiche perso
                                 createPersoPrime(msg)
@@ -1817,7 +1819,7 @@ const botPrime = (groupe) => {
                                 msg.reply('🤖 *La vie est rose*')
                             }
                         } else if (body.substr(0, 23) == '# *ACTUALISATION PRIME*'){
-                            if (((from == '33615641467@c.us') && (to == groupe)) || (from == '8618752355751@c.us'))
+                            if (((from == '8618752355751@c.us') && (to == groupe)) || (from == '8618752355751@c.us'))
                             {
                                 // Requête d'actualisation de fiche
                                 console.log('Requête d\'actualisation')
@@ -2325,7 +2327,7 @@ const recupIdGroup = async(message) => {
 // Test tague
 const tague = (groupe) => {
     bot.on('message_create', async (msg) => {
-        if(msg.body === '>tag' && (msg.from === groupe) || ((msg.body === '>tag') && (msg.from == '33615641467@c.us') && (msg.to == groupe)))
+        if(msg.body === '>tag' && (msg.from === groupe) || ((msg.body === '>tag') && (msg.from == '8618752355751@c.us') && (msg.to == groupe)))
         {
             let chat = await msg.getChat()
 
@@ -2333,7 +2335,7 @@ const tague = (groupe) => {
             {
                 const contact = await bot.getContactById(participant.id._serialized);
                 
-                if (contact.number == '33615641467')
+                if (contact.number == '8618752355751')
                 {
                     await chat.sendMessage(`Yo @${contact.number}`, {
                         mentions: [contact]
